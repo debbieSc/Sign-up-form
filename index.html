@@ -11,13 +11,15 @@
         <img src="cat.jpg">
     </div>
 
-    <div>
-        <p>The cuteness of the cat is overload, sign up now if you absolutely need a cat in your life</p>
-    </div>
-
+    
     <div>
         <Form>
+            <div class="header">
+                <p>The cuteness of the cat is overload, sign up now if you absolutely need a cat in your life</p>
+            </div>
+        <div class="formBody">
             <h1>You Know you really need to do this</h1>
+            <div class="formLayout">
             <p>
                 <label for="firstName">
                   <span>First Name: </span>
@@ -32,6 +34,8 @@
                 </label>
                 <input type="text" id="lastName" name="userlastname" required />
             </p>
+            </div>
+            <div class="formLayout">
             <p>
                 <label for="mail">
                     <span>Email</span>
@@ -45,6 +49,8 @@
                 </label>
                 <input type="tel" id="tel" name="usertel">
             </p>
+            </div>
+            <div class="formLayout">
             <p>
                 <label for="pwd">
                     <span>Password</span>
@@ -59,10 +65,13 @@
                 </label>
                 <input type="password" id="confirmpwd" name="confirmpwd" required>
             </p>
+            </div>
+            <div class="footer">
             <p>
                 <button type="submit">Create Account</button>
-            </p>
-
+            </p>        
+            <p>if you're sensible and already created an account Log in here</p>
+        </div>
         </Form>
     </div>
     
